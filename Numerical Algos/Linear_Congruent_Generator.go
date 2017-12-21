@@ -13,18 +13,17 @@ func main() {
 	var (
 		A = flag.Int("A", 7, "A value")
 		B = flag.Int("B", 5, "B value")
-		M = flag.Int("M", 11, "M value")
-		numIterations = flag.Int("iterNum", 10, "Iterations count")
+		M = flag.Int("M", 10, "M value")
 	)
 
-	var Xn1 int
 	var Xn int = 0
+	var Xn1 int
 
-	for i := 0; i <= *numIterations; i ++ {
+	for i := 0; i < *M; i ++ {
 		Xn1 = ((*A) * (Xn) + (*B)) % (*M)
 		Xn = Xn1
 	}
 
-	fmt.Printf("You number after %d iterations is: %d", *numIterations, Xn1)
+	fmt.Printf("You number after %d iterations is: %d", *M, Xn1)
 }
 
