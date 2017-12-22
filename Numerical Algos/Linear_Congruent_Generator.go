@@ -11,12 +11,12 @@ import (
 
 func main() {
 	var (
-		A = flag.Int("A", 7, "A value")
-		B = flag.Int("B", 5, "B value")
-		M = flag.Int("M", 10, "M value")
+		A = flag.Int("A", 2121, "A value")
+		B = flag.Int("B", 43424, "B value")
+		M = flag.Int("M", 44444444, "M value")
 	)
 
-	var Xn int = 0
+	var Xn int = 0 //if we hold A and B, Xn will be seed
 	var Xn1 int
 
 	for i := 0; i < *M; i ++ {
@@ -26,4 +26,6 @@ func main() {
 
 	fmt.Printf("You number after %d iterations is: %d", *M, Xn1)
 }
+
+
 
