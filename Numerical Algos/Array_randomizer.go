@@ -13,7 +13,7 @@ func main()  {
 	//slice := getBigSlice()
 
 	for i, elem := range slice {
-		//We can't get number more than len of the slice in LCG, 124332 and 1437698 just numbers, you can choose any
+		//We can't get number more than len of the slice in LCG; 124332 and 1437698 just numbers, you can choose any
 		rand := lcg(i * 124332, elem * 1437698, len(slice))
 
 		//Save value in i-th index
