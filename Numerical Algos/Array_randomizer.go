@@ -5,16 +5,16 @@ import "fmt"
 // Array (and slice) randomizer with time O(N)
 // We can use linear congruent generator to get value between 0 and max len of array
 
-func main()  {
+func main() {
 	// Yes, we can generate in for loop, but... for test purposes :)
-	var slice []int = []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ,13 ,14 ,15, 16 ,17}
+	var slice = []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17}
 
 	//In for loop
 	//slice := getBigSlice()
 
 	for i, elem := range slice {
 		//We can't get number more than len of the slice in LCG; 124332 and 1437698 just numbers, you can choose any
-		rand := lcg(i * 124332, elem * 1437698, len(slice))
+		rand := lcg(i*124332, elem*1437698, len(slice))
 
 		//Save value in i-th index
 		temp := slice[i]
@@ -27,12 +27,14 @@ func main()  {
 	fmt.Print(slice)
 }
 
+
+// Use linear congruent generator
 func lcg(A, B, M int) int {
-	var Xn int = 44
+	var Xn = 44 //Seed
 	var Xn1 int
 
-	for i := 0; i < M; i ++ {
-		Xn1 = ((A) * (Xn) + (B)) % (M)
+	for i := 0; i < M; i++ {
+		Xn1 = ((A)*(Xn) + (B)) % (M)
 		Xn = Xn1
 	}
 	return Xn1
