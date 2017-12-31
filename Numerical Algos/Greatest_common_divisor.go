@@ -28,7 +28,6 @@ func main() {
 	}
 
 	//GCD(A, B) = GCD(B, A mod B), if R = A mod B, then A = m x B + R, where m some int. (it's just my notes)
-
 	//If GCD for 2 numbers are 1, then numbers calls as Mutually prime
 	if *A == 1 {
 		fmt.Print("Numbers are Mutually-prime")
