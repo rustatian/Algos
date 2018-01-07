@@ -1,11 +1,15 @@
 package main
 
 import (
-	"math"
 	"fmt"
+	"math"
 )
 
 func main() {
+
+}
+
+func Erythrophene_sieve() {
 	var maxNumber float64 = 1000000
 
 	//maxNumber + 1
@@ -17,7 +21,6 @@ func main() {
 		i += 2
 	}
 
-	
 	// except all numbers which multiply founded prime numbers
 	var nextPrime float64 = 3
 	stopAt := math.Sqrt(float64(maxNumber))
@@ -39,7 +42,7 @@ func main() {
 	var resSlice []int
 
 	// Just sieve and get only prime numbers
-	for i := 2; i <= int(maxNumber); i ++ {
+	for i := 2; i <= int(maxNumber); i++ {
 		if !isComposite[i] {
 			resSlice = append(resSlice, i)
 		}
