@@ -19,7 +19,7 @@ func main() {
 
 	fmt.Printf("Real result by internal func : %e", math.Pow(*A, float64(*P)))
 	fmt.Println()
-	fmt.Println("------------")
+	fmt.Println("-----------")
 
 	var i float64 = 2
 	var res float64 = 1

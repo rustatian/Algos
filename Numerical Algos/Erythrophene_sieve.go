@@ -17,6 +17,7 @@ func main() {
 		i += 2
 	}
 
+	
 	// except all numbers which multiply founded prime numbers
 	var nextPrime float64 = 3
 	stopAt := math.Sqrt(float64(maxNumber))
