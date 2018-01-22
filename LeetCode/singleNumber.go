@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"sort"
+
 )
 
 func main() {
@@ -10,16 +10,24 @@ func main() {
 }
 
 func singleNumber(nums []int) int {
-	sort.Ints(nums)
-	if len(nums) < 2 {
-		return nums[0]
+	//My solution
+	//sort.Ints(nums)
+	//if len(nums) < 2 {
+	//	return nums[0]
+	//}
+	//
+	//for i := 0; i < len(nums)-1; i += 2 {
+	//	if nums[i] != nums[i+1] {
+	//		return nums[i]
+	//	}
+	//}
+	//return nums[len(nums)-1]
+
+	//Solution from leetcode
+	a := 0
+	for _, num := range nums {
+		a ^= num
 	}
 
-	for i := 0; i < len(nums)-1; i += 2 {
-		if nums[i] != nums[i+1] {
-			return nums[i]
-		}
-	}
-
-	return nums[len(nums)-1]
+	return a
 }
