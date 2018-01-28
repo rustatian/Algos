@@ -26,6 +26,3 @@ func main() {
 
 	fmt.Printf("You number after %d iterations is: %d", *M, Xn1)
 }
-
-
-
