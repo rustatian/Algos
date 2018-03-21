@@ -10,7 +10,7 @@ func main() {
 }
 
 func singleNumber(nums []int) int {
-	//My solution
+	// My solution
 	sort.Ints(nums)
 	if len(nums) < 2 {
 		return nums[0]
@@ -23,15 +23,15 @@ func singleNumber(nums []int) int {
 	}
 	return nums[len(nums)-1]
 
-	//Concept
-	//If we take XOR of zero and some bit, it will return that bit
-	//a⊕0=a
-	//If we take XOR of two same bits, it will return 0
-	//a⊕a=0
-	//a⊕b⊕a=(a⊕a)⊕b=0⊕b=b
-	//So we can XOR all bits together to find the unique number.
+	// Concept
+	// If we take XOR of zero and some bit, it will return that bit
+	// a⊕0=a
+	// If we take XOR of two same bits, it will return 0
+	// a⊕a=0
+	// a⊕b⊕a=(a⊕a)⊕b=0⊕b=b
+	// So we can XOR all bits together to find the unique number.
 
-	//Solution from leetcode
+	// Solution from leetcode
 	a := 0
 	for _, num := range nums {
 		a ^= num

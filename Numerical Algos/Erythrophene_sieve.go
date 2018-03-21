@@ -12,7 +12,7 @@ func main() {
 func Erythrophene_sieve() {
 	var maxNumber float64 = 1000000
 
-	//maxNumber + 1
+	// maxNumber + 1
 	isComposite := [1000001]bool{}
 
 	// except all numbers which multiply 2
@@ -33,7 +33,7 @@ func Erythrophene_sieve() {
 
 		nextPrime = nextPrime + 2
 
-		//goes to the next prime number except founded odd nums
+		// goes to the next prime number except founded odd nums
 		for nextPrime <= maxNumber && isComposite[int(nextPrime)] {
 			nextPrime = nextPrime + 2
 		}
