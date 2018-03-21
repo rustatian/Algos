@@ -1,6 +1,6 @@
 package main
 
-//Stack implementation (because can't import stack in leetcode thought import directive
+// Stack implementation (because can't import stack in leetcode thought import directive
 type Stack []int
 
 func (s *Stack) Push(v int) {
