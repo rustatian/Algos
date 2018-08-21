@@ -12,7 +12,7 @@ func main() {
 	var (
 		A = flag.Int("A", 2121, "A value")
 		B = flag.Int("B", 43424, "B value")
-		M = flag.Int("M", 44444444, "M value")
+		M = flag.Int("M", 34, "M value")
 	)
 
 	var Xn int = 0 // if we hold A and B, Xn will be seed
