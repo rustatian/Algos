@@ -19,8 +19,8 @@ func main() {
 //Depth-first-search https://en.wikipedia.org/wiki/Depth-first_search
 func averageOfLevels_1(root *TreeNode) []float64 {
 	var res []float64
-	queue := Queue{}
-	queue = append(queue, *root)
+	queue := Queue{} // <-- replace with TreeNode type
+	queue = append(queue, root)
 
 	for !queue.Empty() {
 		temp := Queue{}
