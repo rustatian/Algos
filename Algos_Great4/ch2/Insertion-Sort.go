@@ -8,7 +8,6 @@ func main() {
 	fmt.Println(insertionSort(sl))
 }
 
-//
 func insertionSort(A []int) []int {
 	// at the beginning we have elements sorted A[0..j-1]
 	// and A[j + 0..n] are not
