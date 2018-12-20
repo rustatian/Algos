@@ -30,6 +30,7 @@ func insertionSort(A []int) []int {
 	return A
 }
 
+// Task 2.1.2
 // The same but in reverse order
 func insertionSortReverse(A []int) []int {
 	for j := 1; j < len(A); j++ {
@@ -43,3 +44,22 @@ func insertionSortReverse(A []int) []int {
 	}
 	return A
 }
+
+// Task 2.1.3
+// Pseudocode
+// value n
+
+/*
+FOR i = 0, i < A.Length, i ++
+	IF A[i] = n
+		return i
+	return <nil>
+*/
+
+// Task 2.1.4
+/*
+
+
+
+
+ */
