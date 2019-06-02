@@ -12,5 +12,6 @@
 
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
-*.xml
-*.iml
+
+CodeWars/C/8kyu/calculate_average/cmake-build-debug/*
+.idea/*
