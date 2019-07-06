@@ -1,1 +1,0 @@
-/usr/local/Cellar/gcc/9.1.0/bin/gcc-9 -std=c18 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/disemvowel_trolls.dir/main.c.o  -o disemvowel_trolls 

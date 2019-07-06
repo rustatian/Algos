@@ -1,4 +1,0 @@
-/usr/local/Cellar/cmake/3.14.5/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/local/Cellar/make/4.2.1_1/bin/gmake -DCMAKE_C_COMPILER=/usr/local/Cellar/gcc/9.1.0/bin/gcc-9 -DCMAKE_CXX_COMPILER=/usr/local/Cellar/gcc/9.1.0/bin/g++-9 -G "CodeBlocks - Unix Makefiles" /Users/0xdev/Projects/repo/Algos/CodeWars/C/7kyu/disemvowel_trolls
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/0xdev/Projects/repo/Algos/CodeWars/C/7kyu/disemvowel_trolls/cmake-build-debug
