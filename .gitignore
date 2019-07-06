@@ -14,5 +14,5 @@
 .glide/
 
 CodeWars/**/**/**/cmake-build-debug/*
-#CodeWars/C/7kyu/disemvowel_trolls/cmake-build-debug/*
+CodeWars/C/7kyu/disemvowel_trolls/cmake-build-debug/*
 .idea/*
