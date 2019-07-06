@@ -1,0 +1,3 @@
+/Users/0xdev/Projects/repo/Algos/CodeWars/C/7kyu/disemvowel_trolls/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/0xdev/Projects/repo/Algos/CodeWars/C/7kyu/disemvowel_trolls/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/0xdev/Projects/repo/Algos/CodeWars/C/7kyu/disemvowel_trolls/cmake-build-debug/CMakeFiles/disemvowel_trolls.dir
