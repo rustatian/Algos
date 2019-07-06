@@ -1,0 +1,9 @@
+[submodule "Algos_C"]
+	path = Algos_C
+	url = https://github.com/ValeryPiashchynski/Algos_C
+[submodule "Algos_Go"]
+	path = Algos_Go
+	url = https://github.com/ValeryPiashchynski/Algos_Go
+[submodule "Algos_Python"]
+	path = Algos_Python
+	url = https://github.com/ValeryPiashchynski/Algos_Python
