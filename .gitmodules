@@ -7,6 +7,3 @@
 [submodule "Algos_Python"]
 	path = Algos_Python
 	url = https://github.com/ValeryPiashchynski/Algos_Python
-[submodule "Algos_Rust"]
-	path = Algos_Rust
-	url = https://github.com/ValeryPiashchynski/Algos_Rust
