@@ -1,0 +1,6 @@
+[submodule "Algos_Rust"]
+	path = Algos_Rust
+	url = https://github.com/48d90782/Algos_Rust
+[submodule "Algos_Go"]
+	path = Algos_Go
+	url = https://github.com/48d90782/Algos_Go
