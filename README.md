@@ -7,9 +7,9 @@ This repo contains submodules for algorithms implemented in Golang and Rust. Ple
 Python and C++ repositories are temporary deprecated: [Python](https://github.com/48d90782/Algos_Python), [C++](https://github.com/48d90782/Algos_C)
 
 ### Rust:
-[Link](Algos_Rust/README.md)
+[Link](https://github.com/48d90782/Algos_Rust/blob/master/README.md)
 
 ### Golang:
-[Link](Algos_Go/README.md)
+[Link](https://github.com/48d90782/Algos_Go/blob/master/README.md)
 
 Thanks :) 
