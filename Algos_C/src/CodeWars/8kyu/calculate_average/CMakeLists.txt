@@ -1,0 +1,1 @@
+add_executable(avg main.c main.h)

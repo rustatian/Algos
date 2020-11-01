@@ -1,0 +1,1 @@
+add_executable(dtr main.c main.h)
