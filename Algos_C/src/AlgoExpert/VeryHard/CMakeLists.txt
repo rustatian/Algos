@@ -1,1 +1,0 @@
-project(very_hard)

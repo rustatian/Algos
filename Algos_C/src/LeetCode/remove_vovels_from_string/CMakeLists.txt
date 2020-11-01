@@ -1,1 +1,0 @@
-add_executable(remvovels remove_vovels_from_string.cpp)

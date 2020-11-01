@@ -1,1 +1,0 @@
-add_executable(intro main.cpp main.h)
