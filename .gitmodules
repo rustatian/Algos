@@ -4,6 +4,3 @@
 [submodule "Algos_Go"]
 	path = Algos_Go
 	url = https://github.com/48d90782/Algos_Go
-[submodule "Algos_Python"]
-	path = Algos_Python
-	url = https://github.com/rustatian/Algos_Python
