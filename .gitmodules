@@ -7,3 +7,9 @@
 [submodule "Algos_C"]
 	path = Algos_C
 	url = https://github.com/rustatian/Algos_C
+[submodule "Algos_neetcode"]
+	path = Algos_neetcode
+	url = https://github.com/rustatian/Algos_neetcode
+[submodule "Algos_Python"]
+	path = Algos_Python
+	url = https://github.com/rustatian/Algos_Python
